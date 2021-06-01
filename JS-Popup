@@ -2,8 +2,10 @@ alert ('Selamat Datang');
 var lagi = true;
 
 while ( lagi) {
-	var nama = prompt('Masukkan nama anda :')
-	alert('Halo ' + nama);
+	var username = prompt('Masukan Username :');
+	alert('Halo ' + username);
+	var ks = prompt('Masukan Kata Sandi :');
+	alert('Anda Telah Berhasil Login');
   
 	lagi = confirm('coba lagi ?');
 }
